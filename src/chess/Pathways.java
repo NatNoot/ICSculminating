@@ -18,5 +18,6 @@ public class Pathways {
 		int queenValueGood = 0;
 		queenValueGood = queenValueGood + 1;
 		}
-}  
+} 
+ 
 
