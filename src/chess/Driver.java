@@ -11,7 +11,7 @@ public class Driver {
 		if (ans.equals("n")) {
 			QueenLine.main();
 		}
-		else {
+		else { 
 			GeneralScene.sceneOneB();
 			GeneralScene.sceneTwoB();
 			GeneralScene.sceneThreeB();
