@@ -26,7 +26,7 @@ public class GeneralScene {
 		System.out.println("System: succesfully entered queen pathway");
 	}
 	public static void sceneTwoA() {
-		System.out.println("System: succesfully entered queen scene two");
+		System.out.println("System: succesfully entered queen scene two"); 
 	}
 	public static void sceneThreeA() {
 		System.out.println("System: succesfully entered queen scene three");
