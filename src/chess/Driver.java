@@ -3,17 +3,13 @@ package chess;
 
 public class Driver {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		//TESTING
 		String ans = GeneralScene.openingScene(args);
 		
 		if (ans.equals("n")) {
-			GeneralScene.sceneOneA();
-			GeneralScene.sceneTwoA();
-			GeneralScene.sceneThreeA();
-			GeneralScene.sceneFourA();
-			GeneralScene.sceneFiveA();
+			QueenLine.main();
 		}
 		else {
 			GeneralScene.sceneOneB();
