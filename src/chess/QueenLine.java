@@ -8,7 +8,7 @@ public class QueenLine {
 	public static void main() throws Exception{
 		String temp = "";
 	
-		File file = new File("scene2.txt"); 
+		File file = new File("scene2.txt");
 		Scanner in = new Scanner(file);
 		
 		while (in.hasNextLine()) {
