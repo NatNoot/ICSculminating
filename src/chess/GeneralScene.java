@@ -14,7 +14,7 @@ public class GeneralScene {
 		
 		String ans = in.nextLine();
 		
-		in.close();
+		//in.close();
 		
 		if (ans.equals("y")) {
 			System.out.println("Knight: Alright, come with me.");
