@@ -16,7 +16,6 @@ public class Driver {
 		}
 		else if (ans.equals("y")) {  
 			GeneralScene.read("Kscene1.txt");
-			GeneralScene.threeOpt();
 			
 			GeneralScene.read("Kscene2.txt");
 			

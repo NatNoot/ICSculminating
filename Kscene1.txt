@@ -10,7 +10,9 @@ Knight: Still, if he had half the metal his father had in his life he would step
 You: I'm sure he’ll get the hang of it.
 Knight: I wish I shared your optimism. We are leaderless and disorganized and some of the more motivated citizens have taken to imagining an era without kings. 
 Knight: Can you imagine that? How would you decide who’s in charge without a line of succession?
+[all]
 1. In the northern countries they decide who’s in charge through a collective vote.
 2. It would be terrible if someone tried to take advantage of the unrest…
 3. I can't imagine, only the blood of kings have the right to rule!
+///
 You: Wait, is that him?

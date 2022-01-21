@@ -29,11 +29,11 @@ public class GeneralScene {
 	
 	public static String threeOpt() {
 		Scanner in = new Scanner(System.in);
-		String ans = "";
-		ans = in.nextLine();
+		String choice = "";
+		choice = in.nextLine();
 		in.close();
 
-		return ans;
+		return choice;
 	}
 	
 	public static void read(String fileName) throws Exception{
@@ -51,7 +51,20 @@ public class GeneralScene {
 		for (int i = 0; i < lines.size(); i++) {
 			Scanner key = new Scanner(System.in);
 			String nextKey = key.nextLine();
-			System.out.println(lines.get(i));
+			String temp = lines.get(i);
+			
+			if (temp.equals("[all]")) {
+				System.out.println(lines.get(i+1));
+				System.out.println(lines.get(i+2));
+				System.out.println(lines.get(i+3));
+				i = i + 4;
+			} else if (temp.equals("///")) {
+				threeOpt();
+			}
+			
+			if (!temp.equals("///") && !temp.equals("[all]")){
+				System.out.println(lines.get(i));
+			}
 			//System.out.println("Press Enter to Continue");
 		}	
 	}
