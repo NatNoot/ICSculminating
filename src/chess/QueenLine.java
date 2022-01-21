@@ -7,9 +7,10 @@ import java.util.Scanner;
 public class QueenLine {
 	
 	public static void main() throws Exception{
+		
 		ArrayList<String> lines = new ArrayList<String>();
 	
-		File file = new File("scene2.txt");
+		File file = new File("Qscene1.txt");
 		Scanner in = new Scanner(file);
 		
 		while (in.hasNextLine()) {
@@ -21,9 +22,7 @@ public class QueenLine {
 			Scanner key = new Scanner(System.in);
 			String nextKey = key.nextLine();
 			System.out.println(lines.get(i));
-			System.out.println("Press Enter to Continue");
-		}
-		
-	
+			//System.out.println("Press Enter to Continue");
+		}	
 	}
 }

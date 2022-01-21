@@ -1,0 +1,9 @@
+(You decide to go through a servants entrance to attempt to sneak your way into the castle.)
+Pawn (Head servant): Oh hello there, you must be the new handmaid we hired. 
+Pawn (Head servant): Thanks again for coming on such short notice, the last handmaid we hired for the new queen quit so suddenly…
+You: Yep thats me, I am that person you’re talking about.
+Pawn (Head servant): Wait a minute, how do I know you’re really who you say you are? 
+Pawn (Head servant): If you’re the new hire, what's your name!
+You: Ummm…… Pawn?
+Pawn (Head servant): Okay that checks out, go get dressed and then go help the queen get ready for the wedding rehearsal dinner immediately, 
+Pawn (Head servant): and hurry, the queen is not someone who likes to be kept waiting.
