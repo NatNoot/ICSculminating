@@ -1,0 +1,16 @@
+(You enter the kings quarters.)
+Knight: My king? Oh where has he gotten off to this time.
+Knight: I'm so sorry about this, ever since his father died he has taken to hiding in order to avoid his new responsibilities.
+Knight: I'm sure we’ll find him soon, he's surprisingly not very good at it. 
+Knight: Here, help me find him and I'll give you your audience.
+After a couple minutes of looking...
+Knight: It wasn't always like this. The old king never would have allowed this type of unrest to creep into his kingdom. 
+Knight: I can't blame the young king though, he's lost so much in such a short period of time.
+Knight: Still, if he had half the metal his father had in his life he would step up and do his duty to the kingdom.
+You: I'm sure he’ll get the hang of it.
+Knight: I wish I shared your optimism. We are leaderless and disorganized and some of the more motivated citizens have taken to imagining an era without kings. 
+Knight: Can you imagine that? How would you decide who’s in charge without a line of succession?
+1. In the northern countries they decide who’s in charge through a collective vote.
+2. It would be terrible if someone tried to take advantage of the unrest…
+3. I can't imagine, only the blood of kings have the right to rule!
+You: Wait, is that him?

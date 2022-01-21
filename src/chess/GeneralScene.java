@@ -1,9 +1,10 @@
 package chess;
 
+import java.io.File;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GeneralScene {
-	
 	
 	public static String openingScene(String[] args) {
 		Scanner in = new Scanner(System.in);
@@ -13,44 +14,45 @@ public class GeneralScene {
 		
 		String ans = in.nextLine();
 		
+		in.close();
+		
 		if (ans.equals("y")) {
 			System.out.println("Knight: Alright, come with me.");
 		} else if (ans.equals("n")) {
 			System.out.println("Knight: Then get lost.");
 		} else {
 			System.out.println("Please answer with y or n.");
+			openingScene(args);
 	}
 		return ans;
 	}
-	public static void sceneOneA() {
-		System.out.println("System: succesfully entered queen pathway");
+	
+	public static String threeOpt() {
+		Scanner in = new Scanner(System.in);
+		String ans = "";
+		ans = in.nextLine();
+		in.close();
+
+		return ans;
 	}
-	public static void sceneTwoA() {
-		System.out.println("System: succesfully entered queen scene two"); 
-	}
-	public static void sceneThreeA() {
-		System.out.println("System: succesfully entered queen scene three");
-	}
-	public static void sceneFourA() {
-		System.out.println("System: succesfully entered queen scene four");
-	}
-	public static void sceneFiveA() {
-		System.out.println("System: succesfully entered queen scene five");
-	}
+	
+	public static void read(String fileName) throws Exception{
 		
-	public static void sceneOneB() {
-		System.out.println("System: succesfully entered king pathway");
-	}
-	public static void sceneTwoB() {
-		System.out.println("System: succesfully entered king scene two");
-	}
-	public static void sceneThreeB() {
-		System.out.println("System: succesfully entered king scene three");
-	}
-	public static void sceneFourB() {
-		System.out.println("System: succesfully entered king scene four");
-	}
-	public static void sceneFiveB() {
-		System.out.println("System: succesfully entered king scene five");
+		ArrayList<String> lines = new ArrayList<String>();
+	
+		File file = new File(fileName);
+		Scanner in = new Scanner(file);
+		
+		while (in.hasNextLine()) {
+			lines.add(in.nextLine());
+		}
+		in.close();
+		
+		for (int i = 0; i < lines.size(); i++) {
+			Scanner key = new Scanner(System.in);
+			String nextKey = key.nextLine();
+			System.out.println(lines.get(i));
+			//System.out.println("Press Enter to Continue");
+		}	
 	}
 }
